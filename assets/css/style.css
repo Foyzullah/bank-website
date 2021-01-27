@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+input:focus, button:focus{
+  outline: none;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#main-area{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #351f39;
+  margin: 50px 0;
+}
+
+.login-form h3.caption{
+text-transform: capitalize;
+font-weight: 400;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+input{
+  border: none;
+  background-color: #23689b;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+}
+::placeholder{
+  color: #c7cfb7;
+  text-transform: capitalize;
+}
+
+button{
+  border: none;
+  background-color: #23689b;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.login-form {
+  box-shadow: 10px 10px 30px #cae4db;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+#account-info-area{
+  display: none;
+}
+
+.transaction-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.single-status {
+  background-color: #f88f01;
+  padding: 20px 50px;
+  border-radius: 5px;
+  color: #fff;
+  width: 25%;
+}
+
+h4.status-title, h3.input-title {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h1.status-amount {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.transaction-input h1.title{
+  font-size: 30px;
+}
+
+.transaction-input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-input {
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px #cae4db;
+  padding: 20px;
+  width: 40%;
+}
+
+h3.input-title{
+  font-size: 30px;
+}
+.transaction-input{
+  margin-bottom: 30px;
+}

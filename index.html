@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank-Website</title>
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<main id="main-area">
+  <div  id="login-area">
+    <h1 class="title">Welcome to bank of bangladesh</h1>
+    <div class="login-form">
+      <h3 class="caption">login</h3>
+      <p><input type="email" placeholder="email"></p>
+      <p><input type="password" placeholder="password"></p>
+      <button type="button" id="login-btn">Enter</button>
+    </div>
+  </div>
+
+
+  <div id="account-info-area">
+    <h1 class="title">Account Status</h1>
+    <div class="transaction-status">
+      <div class="single-status">
+        <h4 class="status-title">Deposit</h4>
+        <h1 class="status-amount">$ <span id="old-deposit">00</span></h1>
+      </div>
+      <div class="single-status">
+        <h4 class="status-title">Withdraw</h4>
+        <h1 class="status-amount">$ <span id="old-withdraw">00</span></h1>
+      </div>
+      <div class="single-status">
+        <h4 class="status-title">Balance</h4>
+        <h1 class="status-amount">$<span id="old-balance">1200</span></h1>
+      </div>
+    </div>
+    <div class="transaction-input">
+      <h1 class="title">transaction department</h1>
+      <div class="transaction-input-box">
+        <div class="single-input">
+          <h3 class="input-title">Deposit</h3>
+          <p><input id="deposit-amount" type="text" placeholder="$ amount you want to deposit"></p>
+          <button id="deposit-btn" type="button">Deposit</button>
+        </div>
+        <div class="single-input">
+          <h3 class="input-title">Withdraw</h3>
+          <p><input id="withdraw-amount" type="text" placeholder="$ amount you want to withdraw"></p>
+          <button id="withdraw-btn" type="button">Withdraw</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+
+
+
+
+
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
